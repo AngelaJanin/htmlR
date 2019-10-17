@@ -11,7 +11,7 @@ snakeApp.controller("ingresarCtrl", function($rootScope, snakeService, $window){
       
       console.log(result);
       if(result.length == 0 || result == null) alert("Usuario y/o contraseña incorrecta.")
-      $window.location = "#/juego";
+      $window.location = "#/snake";
       
     }).catch(e => {
       console.log(e);
