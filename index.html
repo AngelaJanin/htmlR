@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recetas!</title>
+
+
+    <!--Estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!--JQuery-->
+    <script src = "js/lib/jquery.js"></script> <!--jQuery v3.2.1-->
+
+    <!--JS Bootstrap-->
+    <script src = "js/lib/bootstrap.min.js"></script>
+    <script src = "js/lib/bootstrap.bundle.min.js"></script>
+    
+    <!--Angular JS-->
+    <script src="js/lib/angular.js"></script> <!--AngularJS v1.2.32-->
+    <script src = "js/lib/angular-locale_es-es.min.js"></script>
+    <script src = "js/lib/angular-routes.js"></script>
+
+
+    <!--Aplicacion-->
+    <script src = "js/app.js"></script>
+
+    <!--Servicios para la aplicacion-->
+    <script src = "js/src/service.js"></script>
+
+    <!--Controladores de la aplicacion-->
+    <script src = "js/ctrl/allRecetasCtrl.js"></script>
+    <script src = "js/ctrl/ingresarCtrl.js"></script>
+    <script src = "js/ctrl/misRecetasCtrl.js"></script>
+
+</head>
+<!--Llamamos el modulo de la aplicación-->
+    <body ng-app = "recetas">
+        <section id="main"
+        class="container"
+        ng-view>
+        </section>
+    </body>
+</html>
