@@ -24,7 +24,7 @@ canvas{
 
 #score{
   color:  	#008B8B;
-  text-align: center;
+  text-align: center; 
   font-size: 60px;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }

@@ -2,7 +2,7 @@ body {
     color: #fff;
     /*background: #3598dc;*/
     /* la imagen a ser mostrada a pantalla completa */
-    background:url("../img/init1.jpg") no-repeat center center;
+    background:url("../img/init1.png") no-repeat center center;
  
     /* nos aseguramos que el elemento ocupe toda la ventana del navegador */
     min-width: height 100%;
