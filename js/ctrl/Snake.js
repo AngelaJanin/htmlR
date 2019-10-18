@@ -1,4 +1,3 @@
-snakeApp.controller("snakeCtrl", function(){
 window.addEventListener("load", function(evt) {
   let canvas = document.getElementById("the_canvas");
   let context = canvas.getContext("2d");
@@ -187,6 +186,4 @@ window.addEventListener("load", function(evt) {
         velocidad_y= 12;
       }
     }
-})
-
 });

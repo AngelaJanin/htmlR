@@ -10,7 +10,7 @@ snakeApp.controller("ingresarCtrl", function($rootScope, snakeService, $window){
     .then(function(result){
       
       console.log(result);
-      $window.location = "#/snake";
+      $window.location.href = "/snake.html";
       
     }).catch(e => {
       console.log(e);
