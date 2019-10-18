@@ -9,7 +9,8 @@ body {
  
     /* Propiedad a utilizar para la imagen */
     background-size:cover;
-    margin-top: 14%;
+    background-attachment: fixed;
+    background-position: center;
 
 
 }
