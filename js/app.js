@@ -13,5 +13,8 @@ snakeApp.config(['$routeProvider', function($routeProvider){
                     controller: "ingresarCtrl"})
 		.when('/snake',{
     				templateUrl: "snake.html",
-					controller: "snakeCtrl"})		
+					controller: "snakeCtrl"})
+		.when('/registrar',{
+					templateUrl: "registrar.html",
+					controller: "registrarCtrl"})					
 }]);
