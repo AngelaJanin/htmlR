@@ -1,4 +1,4 @@
-snakeApp.controller("regresarCtrl", function($rootScope, snakeService, $window){
+snakeApp.controller("registrarCtrl", function($rootScope, snakeService, $window){
 $rootScope.dataLogin = {};
 $rootScope.dataLogin.correo = "";
 $rootScope.dataLogin.password = "";
