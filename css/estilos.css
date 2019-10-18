@@ -2,7 +2,9 @@ body {
     color: #fff;
     /*background: #3598dc;*/
     /* la imagen a ser mostrada a pantalla completa */
-    background:url("../img/pixels.gif") no-repeat center center;
+    background:url("../img/pixels.gif");
+    background-repeat:no-repeat;
+    background-position: center center;
  
     /* nos aseguramos que el elemento ocupe toda la ventana del navegador */
     min-width: height 100%;
@@ -10,6 +12,7 @@ body {
     /* Propiedad a utilizar para la imagen */
     background-size:cover;
     margin-top: 14%;
+
 
 
 }
