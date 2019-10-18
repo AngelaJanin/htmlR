@@ -187,6 +187,6 @@ window.addEventListener("load", function(evt) {
         velocidad_y= 12;
       }
     }
-});
+})
 
 });
