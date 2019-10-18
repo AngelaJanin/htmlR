@@ -5,6 +5,7 @@ body {
     background:url("../img/pixels.gif");
     background-repeat:no-repeat;
     background-position: center center;
+    background-attachment: fixed;
  
     /* nos aseguramos que el elemento ocupe toda la ventana del navegador */
     min-width: height 100%;
